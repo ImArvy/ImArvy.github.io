@@ -1,0 +1,54 @@
+{
+    "name": "S7NER #2001",
+    "image": "QmZviK1Rejfc2jqRz4Z2QLhA8Mztr4zYLsjQ4QxghC6TqM",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Peach Blossom  Lighting Effect"
+        },
+        {
+            "trait_type": "Offhand",
+            "value": "Sake"
+        },
+        {
+            "trait_type": "Type",
+            "value": "#B8ADA0"
+        },
+        {
+            "trait_type": "Tattoo",
+            "value": "L.12;15"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Greed Demonize Spine"
+        },
+        {
+            "trait_type": "Outfit",
+            "value": "Greed Taupe Suede Jacket"
+        },
+        {
+            "trait_type": "Eye",
+            "value": "Scorn"
+        },
+        {
+            "trait_type": "Hair",
+            "value": "#C2C S7 Grey Beanie"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Smoke"
+        },
+        {
+            "trait_type": "Accessories",
+            "value": "Orange Gradient Sunglasses"
+        },
+        {
+            "trait_type": "Mus",
+            "value": "Greed Mus"
+        },
+        {
+            "trait_type": "Position",
+            "value": "Left"
+        }
+    ]
+}

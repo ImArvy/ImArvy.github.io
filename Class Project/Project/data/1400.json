@@ -1,0 +1,54 @@
+{
+    "name": "S7NER #1400",
+    "image": "QmQaJT4tK7wm9tqry9QGvWXYXMpTPFeqEve3NUkxj7nexa",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Sloth Fruit"
+        },
+        {
+            "trait_type": "Offhand",
+            "value": "Pistol"
+        },
+        {
+            "trait_type": "Type",
+            "value": "#E2BCB6"
+        },
+        {
+            "trait_type": "Tattoo",
+            "value": "P.24;30-34"
+        },
+        {
+            "trait_type": "Neck",
+            "value": "Bandage"
+        },
+        {
+            "trait_type": "Outfit",
+            "value": "Sloth Amber Leather Jacket"
+        },
+        {
+            "trait_type": "Eye",
+            "value": "Cherry Blossom "
+        },
+        {
+            "trait_type": "Hair",
+            "value": "#ED6 Beige Velvet Bucket Hat"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Lip Piercing"
+        },
+        {
+            "trait_type": "Accessories",
+            "value": "Green Respirator"
+        },
+        {
+            "trait_type": "Mus",
+            "value": "Sloth Mus"
+        },
+        {
+            "trait_type": "Position",
+            "value": "Right"
+        }
+    ]
+}
