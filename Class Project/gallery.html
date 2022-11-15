@@ -5,17 +5,7 @@
         <title>NFT Marketplace</title>
         <link rel = "stylesheet" href = "styles/gallery.css">
         <script src = "https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script>
-            $(document).ready(() => {
-                //for (let i = 0; i < 3334; i++) {
-                for (let i = 0; i < 50; i++) {
-                    $("#right").html("");
-                    $.getJSON("../data/" + i + ".json", (data) => {
-                        $("#right").append("<a href = details.html id = " + i + "><img src = https://s7nspfp.mypinata.cloud/ipfs/" + data.image + "></a>");
-                    });
-                }
-            });
-        </script>
+        <script src = "scripts/gallery.js"></script>
     </head>
     <body>
         <main>
