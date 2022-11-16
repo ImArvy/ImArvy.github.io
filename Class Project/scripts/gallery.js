@@ -18,7 +18,6 @@ $(document).ready(() => {
         $(this).click((evt) => {
             evt.preventDefault();
             localStorage.setItem("number", id);
-            window.location = "details.html";
         });
     });
 });
