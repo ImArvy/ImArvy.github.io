@@ -84,9 +84,14 @@ ul li a {
 }
 
 #box {
-    display: flexbox;
     width: 1000px;
+    height: 1800px;
     margin: auto;
+}
+
+#left {
+    width: 200px;
+    float: left;
 }
 
 #left ul {
@@ -97,15 +102,16 @@ ul li a {
     width: 200px;
     height: 1400px;
     float: left;
-    padding-right: 5px;
 }
 
 #left ul li {
-    width: 200px;
+    width: 150px;
     background-color: rgb(0, 0, 0);
     line-height: 40px;
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -118,10 +124,18 @@ ul li a {
     font-weight: bold;
 }
 
+#right {
+    width: 800px;
+    float: right;
+}
+
 #right img {
-    width: 120px;
-    height: 120px;
-    margin: 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 footer {

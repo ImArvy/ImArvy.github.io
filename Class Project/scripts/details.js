@@ -1,6 +1,6 @@
 $(document).ready(() => {
-    let id = localStorage['jsonNumber'];
-    localStorage.removeItem('jsonNumber');
+    let id = localStorage.getItem("number");
+    localStorage.removeItem("number");
     $("#details").html("");
     $.getJSON("../data/" + id + ".json", (data) => {
         let attributes = data.attributes;
