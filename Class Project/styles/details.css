@@ -79,13 +79,13 @@ ul li a {
     display: block;
 }
 
-#box {
+#details {
     display: table;
     width: 1000px;
     margin: 20px;
 }
 
-#box li {
+#details li {
     float: left;
     width: 200px;
     height: 100px;
