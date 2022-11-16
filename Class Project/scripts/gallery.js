@@ -12,7 +12,7 @@ $(document).ready(() => {
         let id = $(this).attr("id");
         $(this).click((evt) => {
             evt.preventDefault();
-            localStorage.setItem( 'jsonNumber', id );
+            localStorage.setItem('jsonNumber', id );
         });
     });
 });
