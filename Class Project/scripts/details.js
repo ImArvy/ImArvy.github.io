@@ -2,9 +2,9 @@ $(document).ready(() => {
     displayData();
 });
 
-let loadJSON = (id) => {
+let loadJSON = (num) => {
     $("#box").html("");
-    $.getJSON("../data/" + id + ".json", (data) => {
+    $.getJSON("../data/" + num + ".json", (data) => {
         let attributes = data.attributes;
         for (let j = 0; j < attributes.length; j++) {
             $("#box").append("<div><h2>" + attributes[j].trait_type + "</h2><h3>" + attributes[j].value + "</h3></div>");
@@ -28,7 +28,8 @@ let displayData = () => {
     
     let fields = query.split("&");
     if (fields.length == 0) {
-        document.write("<p>No data retrieved.</p>");
+        $("#box").html("");
+        $("#box").append("<div><h2>NULL</h2><h3>NULL</h3></div>");
     } else {
         let field_parts;
         for (const i in fields) {

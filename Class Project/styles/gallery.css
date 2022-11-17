@@ -54,6 +54,11 @@ ul {
     padding: 0;
 }
 
+#two-tier {
+    width: 1000px;
+    height: 50px;
+}
+
 #two-tier li {
     float: left;
     width: 500px;
@@ -64,10 +69,6 @@ ul {
     text-align: center;
 }
 
-#two-tier li a {
-    font-weight: bold;
-}
-
 #two-tier li a:hover{
     background-color: grey;  
 }
@@ -75,7 +76,7 @@ ul {
 #two-tier li ul li a:hover{
     background-color: none;
     opacity: 100%;
-}  
+}   
 
 ul li a {
     text-decoration: none;
