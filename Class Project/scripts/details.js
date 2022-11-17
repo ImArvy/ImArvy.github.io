@@ -4,7 +4,7 @@ $(document).ready(() => {
 
 let loadJSON = (num) => {
     $("#box").html("");
-    $.getJSON("../data/" + num + ".json", (data) => {
+    $.getJSON("data/" + num + ".json", (data) => {
         let attributes = data.attributes;
         for (let j = 0; j < attributes.length; j++) {
             $("#box").append("<div><h2>" + attributes[j].trait_type + "</h2><h3>" + attributes[j].value + "</h3></div>");
