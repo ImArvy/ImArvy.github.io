@@ -79,21 +79,19 @@ ul li a {
     display: block;
 }
 
-#details {
+#box {
     display: table;
     width: 1000px;
-    margin: 20px;
+    margin: 50px;
 }
 
-#details li {
-    float: left;
+#box div {
+    float:left;
     width: 200px;
-    height: 100px;
-    backface-visibility: hidden;
-    line-height: 20px;
-    text-align: center;
+    height: 150px;
+    margin: 10px;
     border: 2px solid black;
-    margin: 20px;
+    text-align: center;
 }
 
 footer {
