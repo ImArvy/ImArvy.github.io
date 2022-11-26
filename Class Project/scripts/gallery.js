@@ -17,7 +17,7 @@ let loadFilters = () => {
     let values = [];
     for (let i = 0; i < 100; i++) {
         $("#left ul").html("");
-        $.getJSON("../data/" + i + ".json", (data) => {
+        $.getJSON("Class Project/data/" + i + ".json", (data) => {
             let attributes = data.attributes;
             for (let j = 0; j < attributes.length; j++) {
                 // Add trait_type attributes to filter
