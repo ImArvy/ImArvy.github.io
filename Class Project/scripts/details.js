@@ -6,8 +6,8 @@ let loadJSON = (num) => {
     $("#box").html("");
     $.getJSON("../data/" + num + ".json", (data) => {
         let attributes = data.attributes;
-        for (let j = 0; j < attributes.length; j++) {
-            $("#box").append("<div><h2>" + attributes[j].trait_type + "</h2><h3>" + attributes[j].value + "</h3></div>");
+        for (let i = 0; i < attributes.length; i++) {
+            $("#box").append("<div><h2>" + attributes[i].trait_type + "</h2><h3>" + attributes[i].value + "</h3></div>");
         }
     });
 };
@@ -34,7 +34,6 @@ let displayData = () => {
         let field_parts;
         for (const i in fields) {
             field_parts = fields[i].split("=");
-            field_parts[0] = decode(field_parts[0]);
             field_parts[1] = decode(field_parts[1]);
             loadJSON(field_parts[1]);
         }

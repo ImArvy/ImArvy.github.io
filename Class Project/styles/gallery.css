@@ -3,15 +3,15 @@ html {
 }
 
 main {
-    width: 1000px;
+    width: 1600px;
     background-color: white;
     margin: auto;
     border: solid black;
 }
 
 header {
-    width: 1000px;
-    height: 200px;
+    width: 1600px;
+    height: 400px;
     border-top: none;
     box-shadow: none;		
 }
@@ -32,17 +32,17 @@ header img {
 }
 
 #banner {
-    width: 1000px;
-    height: 200px;
+    width: 1600px;
+    height: 400px;
     z-index: 1;
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     float: left;
     z-index: 2;
-    margin: 50px;
+    margin: 100px;
     border: 2px solid white;
     border-radius: 5px;
 }
@@ -54,17 +54,18 @@ ul {
 }
 
 #two-tier {
-    width: 1000px;
-    height: 50px;
+    width: 1800px;
+    height: 80px;
+    margin-bottom: 60px;
 }
 
 #two-tier li {
     float: left;
-    width: 500px;
-    height: 50px;
+    width: 800px;
+    height: 80px;
     background-color: black;
     backface-visibility: hidden;
-    line-height: 50px;
+    line-height: 80px;
     text-align: center;
 }
 
@@ -79,38 +80,34 @@ ul {
 
 ul li a {
     text-decoration: none;
+    font-size: 20px;
     color: white;
     display: block;
 }
 
 #box {
-    width: 1000px;
-    height: 3600px;
-    margin: auto;
+    width: 1600px;
+    height: 4460px;
+    margin: 60px;
 }
 
 #left {
-    width: 200px;
+    width: 400px;
     float: left;
 }
 
 #left ul {
     list-style-type: none;
-    margin-left: 10px;
-    margin-top: 10px;
     display: table-cell;
-    width: 200px;
+    width: 400px;
     float: left;
 }
 
 #left ul li {
-    width: 150px;
+    width: 340px;
     background-color: rgb(0, 0, 0);
-    line-height: 40px;
+    line-height: 80px;
     text-align: center;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -120,21 +117,20 @@ ul li a {
     color: white;
     display: block;
     text-align: center;
+    font-size: 20px;
     font-weight: bold;
 }
 
 #right {
-    width: 800px;
+    width: 1200px;
     float: right;
 }
 
 #right img {
-    width: 150px;
-    height: 150px;
-    margin-left: 0px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 footer {
@@ -142,10 +138,10 @@ footer {
     background-color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
-    width: 1000px;
-    height: 50px;
+    width: 1600px;
+    height: 80px;
     border-top: 2px solid black;
 }
 
