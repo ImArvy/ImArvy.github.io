@@ -49,24 +49,42 @@ header img {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 #two-tier {
-    width: 1800px;
-    height: 80px;
-    margin-bottom: 60px;
+    width: 1600px;
+    height: 60px;
+    margin: 0px;
 }
 
 #two-tier li {
     float: left;
-    width: 800px;
-    height: 80px;
-    background-color: black;
+    width: 799px;
+    height: 60px;
+    background-color: white;
     backface-visibility: hidden;
-    line-height: 80px;
+    line-height: 60px;
     text-align: center;
+}
+
+#two-tier li:first-child {
+    border-left: 0px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#two-tier li:last-child {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#two-tier li a {
+    color: black;
 }
 
 #two-tier li a:hover{
@@ -75,6 +93,7 @@ ul {
 
 ul li a {
     text-decoration: none;
+    font-size: 20px;
     color: white;
     display: block;
 }
@@ -82,34 +101,36 @@ ul li a {
 #box {
     display: table;
     width: 1600px;
-    margin: 60px;
 }
 
 #box div {
     float: left;
-    width: 200px;
-    height: 200px; 
-    margin: 20px;
+    width: 195px;
+    height: 195px; 
+    margin: 60px;
     border: 2px solid black;
     text-align: center;
 }
 
 #box h2 {
-    text-decoration: underline;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#box h3 {
+    margin-bottom: 60px;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 footer {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
     width: 1600px;
-    height: 80px;
+    height: 60px;
     border-top: 2px solid black;
-}
-
-footer p {
-    transform: translateY(50%);
 }

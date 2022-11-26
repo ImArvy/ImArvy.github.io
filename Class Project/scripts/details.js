@@ -16,7 +16,7 @@ let decode = (text) => {
     text = text.replace(/\+/g, " ");
     text = text.replace(/%[a-fA-F0-9]{2}/g, 
         (text) => {
-            return String.fromCharCode("0x" + text.substr(1,2));
+            return String.fromCharCode("0x" + text.substr(1, 2));
         }
     );
     return text;
