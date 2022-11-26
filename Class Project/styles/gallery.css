@@ -54,29 +54,43 @@ ul {
 }
 
 #two-tier {
-    width: 1800px;
+    width: 1600px;
     height: 80px;
+    margin: 0;
     margin-bottom: 60px;
 }
 
 #two-tier li {
     float: left;
-    width: 800px;
+    width: 799px;
     height: 80px;
-    background-color: black;
+    background-color: white;
     backface-visibility: hidden;
     line-height: 80px;
     text-align: center;
 }
 
-#two-tier li a:hover{
-    background-color: grey;  
+#two-tier li:first-child {
+    border-left: 0px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
-#two-tier li ul li a:hover{
-    background-color: none;
-    opacity: 100%;
-}   
+#two-tier li:last-child {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#two-tier li a {
+    color: black;
+}
+
+#two-tier li a:hover{
+    background-color: grey;  
+} 
 
 ul li a {
     text-decoration: none;
@@ -104,22 +118,57 @@ ul li a {
 }
 
 #left ul li {
-    width: 340px;
-    background-color: rgb(0, 0, 0);
-    line-height: 80px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-#left ul li a {
-    text-decoration: none;
-    color: white;
     display: block;
+    width: 340px;
+    background-color: white;
+    line-height: 24px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0px;
+    margin-bottom: 10px;
 }
+
+#left ul li a:first-child {
+    display: block;
+    width: 255px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#left ul li a {
+    /*display: none;*/
+    width: 255px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#left ul li a:hover {
+    background-color: grey; 
+}
+
+/*
+#left ul li a:hover ~ .hidden {
+    display: block;
+}
+*/
 
 #right {
     width: 1200px;
@@ -139,7 +188,6 @@ footer {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    font-weight: bold;
     width: 1600px;
     height: 80px;
     border-top: 2px solid black;

@@ -7,7 +7,7 @@ let loadJSON = (num) => {
     $.getJSON("../data/" + num + ".json", (data) => {
         let attributes = data.attributes;
         for (let i = 0; i < attributes.length; i++) {
-            $("#box").append("<div><h2>" + attributes[i].trait_type + "</h2><h3>" + attributes[i].value + "</h3></div>");
+            $("#box").append(`<div><h2>${attributes[i].trait_type}</h2><h3>${attributes[i].value}</h3></div>`);
         }
     });
 };
@@ -24,7 +24,9 @@ let decode = (text) => {
     
 let displayData = () => {
     let query = location.search.replace("?", "");
-    if (query == "") return;
+    if (query == "") {
+        return;
+    }
     
     let fields = query.split("&");
     if (fields.length == 0) {

@@ -71,12 +71,7 @@ ul {
 
 #two-tier li a:hover{
     background-color: grey;  
-}
-
-#two-tier li ul li a:hover{
-    background-color: none;
-    opacity: 100%;
-}    
+} 
 
 ul li a {
     text-decoration: none;
