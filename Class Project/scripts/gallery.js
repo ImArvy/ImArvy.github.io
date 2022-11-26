@@ -6,7 +6,7 @@ $(document).ready(() => {
 let loadImages = () => {
     for (let i = 0; i < 100; i++) {
         $("#right").html("");
-        $.getJSON("Class Project/data/" + i + ".json", (data) => {
+        $.getJSON("/Class Project/data/" + i + ".json", (data) => {
             $("#right").append(`<a href = details.html?id=${i}><img src = https://s7nspfp.mypinata.cloud/ipfs/${data.image} id = ${i}></a>`);
         });
     }
@@ -17,7 +17,7 @@ let loadFilters = () => {
     let values = [];
     for (let i = 0; i < 100; i++) {
         $("#left ul").html("");
-        $.getJSON("Class Project/data/" + i + ".json", (data) => {
+        $.getJSON("/Class Project/data/" + i + ".json", (data) => {
             let attributes = data.attributes;
             for (let j = 0; j < attributes.length; j++) {
                 // Add trait_type attributes to filter
@@ -46,7 +46,7 @@ let filterImages = (id) => {
     // Filter images by id
     for (let i = 0; i < 100; i++) {
         $("#right").html("");
-        $.getJSON("Class Project/data/" + i + ".json", (data) => {
+        $.getJSON("/Class Project/data/" + i + ".json", (data) => {
             let attributes = data.attributes;
             for (let j = 0; j < attributes.length; j++) {
                 let value = attributes[j].value;
