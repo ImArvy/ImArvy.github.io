@@ -75,19 +75,19 @@ let displayData = () => {
     // Load all images if there is no query => no filter applied
     if (query == "") {
         loadImages();
-        return;
-    }
-    
-    let fields = query.split("&");
-    if (fields.length == 0) {
-        $("#right").html("");
-        $("#right").append("<h2>NULL</h2><h3>NULL</h3>");
+    // Filter images if there is a query => filter applied
     } else {
-        let field_parts;
-        for (const i in fields) {
-            field_parts = fields[i].split("=");
-            field_parts[1] = decode(field_parts[1]);
-            filterImages(field_parts[1]);
+        let fields = query.split("&");
+        if (fields.length == 0) {
+            $("#right").html("");
+            $("#right").append("<h2>NULL</h2><h3>NULL</h3>");
+        } else {
+            let field_parts;
+            for (const i in fields) {
+                field_parts = fields[i].split("=");
+                field_parts[1] = decode(field_parts[1]);
+                filterImages(field_parts[1]);
+            }
         }
     }
 };
