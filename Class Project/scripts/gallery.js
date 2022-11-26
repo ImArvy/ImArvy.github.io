@@ -1,7 +1,7 @@
-$(document).ready(() => {
+//$(document).ready(() => {
     loadFilters();
     displayData();
-});
+//});
 
 let loadImages = () => {
     for (let i = 0; i < 100; i++) {
