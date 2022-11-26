@@ -50,8 +50,8 @@ let filterImages = (id) => {
             let attributes = data.attributes;
             for (let j = 0; j < attributes.length; j++) {
                 let value = attributes[j].value;
-                let valueJoined = value.replace(/\s/g, '');
-                let valueFixed = valueJoined.replace('#', '');
+                let valueJoined = value.replace(/\s/g, "");
+                let valueFixed = valueJoined.replace("#", "");
                 if (valueFixed === id) {
                     $("#right").append(`<a href = details.html?id=${i}><img src = https://s7nspfp.mypinata.cloud/ipfs/${data.image} id = ${i}></a>`);
                 }
