@@ -46,7 +46,7 @@ let filterImages = (id) => {
     // Filter images by id
     for (let i = 0; i < 100; i++) {
         $("#right").html("");
-        $.getJSON("../data/" + i + ".json", (data) => {
+        $.getJSON("Class Project/data/" + i + ".json", (data) => {
             let attributes = data.attributes;
             for (let j = 0; j < attributes.length; j++) {
                 let value = attributes[j].value;
