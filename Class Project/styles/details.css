@@ -1,10 +1,11 @@
 html {
     font-family: sans-serif;
+    background-color: black;
 }
 
 main {
     width: 1600px;
-    background-color: white;
+    background-color: maroon;
     margin: auto;
     border: solid black;
 }
@@ -43,7 +44,7 @@ header img {
     float: left;
     z-index: 2;
     margin: 100px;
-    border: 2px solid white;
+    border: 2px solid azure;
     border-radius: 5px;
 }
 
@@ -63,7 +64,7 @@ ul {
     float: left;
     width: 799px;
     height: 60px;
-    background-color: white;
+    background-color: azure;
     backface-visibility: hidden;
     line-height: 60px;
     text-align: center;
@@ -88,13 +89,12 @@ ul {
 }
 
 #two-tier li a:hover{
-    background-color: grey;  
+    background-color: maroon;  
 } 
 
 ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
     display: block;
 }
 
@@ -108,8 +108,10 @@ ul li a {
     width: 195px;
     height: 195px; 
     margin: 60px;
-    border: 2px solid black;
     text-align: center;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 #box h2 {
@@ -126,7 +128,7 @@ ul li a {
 
 footer {
     color: black;
-    background-color: white;
+    background-color: azure;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
