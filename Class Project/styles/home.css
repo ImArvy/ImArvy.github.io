@@ -1,0 +1,185 @@
+html {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+main {
+    width: 1600px;
+    background-color: maroon;
+    margin: auto;
+    border: solid black;
+}
+
+header {
+    width: 1600px;
+    height: 400px;
+    border-top: none;
+    box-shadow: none;		
+}
+
+header h1 {
+    margin-top: auto;
+    padding-top: 20px;
+    font-size: 48px;
+}
+
+header h2 {
+    margin-top: -30px;
+    font-size: 24px;
+}
+
+header img {
+    position: absolute;
+}
+
+#banner {
+    width: 1600px;
+    height: 400px;
+    z-index: 1;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+    z-index: 2;
+    margin: 100px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#two-tier {
+    width: 1600px;
+    height: 60px;
+    margin: 0px;
+}
+
+#two-tier li {
+    float: left;
+    width: 799px;
+    height: 60px;
+    background-color: lightblue;
+    backface-visibility: hidden;
+    line-height: 60px;
+    text-align: center;
+}
+
+#two-tier li:first-child {
+    border-left: 0px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#two-tier li:last-child {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#two-tier li a {
+    color: black;
+}
+
+#current {
+    background-color: orange;;
+}
+
+#two-tier li a:hover{
+    background-color: maroon;  
+} 
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+#box {
+    display: table;
+    width: 1600px;
+    text-align: center;
+}
+
+#box h1 {
+    margin: 60px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#box h2 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#box h3 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#box table {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-collapse: collapse;
+}
+
+#first-th {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#first-td {
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#box th {
+    display: table-cell;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    background-color: orange;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#box td {
+    display: table-cell;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    background-color: orange;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 1600px;
+    height: 60px;
+    border-top: 2px solid black;
+}

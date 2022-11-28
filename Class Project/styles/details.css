@@ -44,7 +44,7 @@ header img {
     float: left;
     z-index: 2;
     margin: 100px;
-    border: 2px solid azure;
+    border: 2px solid lightblue;
     border-radius: 5px;
 }
 
@@ -64,7 +64,7 @@ ul {
     float: left;
     width: 799px;
     height: 60px;
-    background-color: azure;
+    background-color: lightblue;
     backface-visibility: hidden;
     line-height: 60px;
     text-align: center;
@@ -99,15 +99,17 @@ ul li a {
 }
 
 #box {
+    margin-left: 60px;
     display: table;
     width: 1600px;
 }
 
 #box div {
     float: left;
-    width: 195px;
-    height: 195px; 
-    margin: 60px;
+    width: 192px;
+    height: 192px; 
+    margin-top: 60px;
+    margin-right: 60px;
     text-align: center;
     background-color: orange;
     border: 2px solid black;
@@ -128,11 +130,12 @@ ul li a {
 
 footer {
     color: black;
-    background-color: azure;
+    background-color: lightblue;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
     width: 1600px;
     height: 60px;
     border-top: 2px solid black;
+    margin-top: 60px;
 }

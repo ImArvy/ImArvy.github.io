@@ -4,10 +4,10 @@ $(document).ready(() => {
 
 let loadJSON = (num) => {
     $("#box").html("");
-    $.getJSON("../data/" + num + ".json", (data) => {
+    $.getJSON("data/" + num + ".json", (data) => {
         let attributes = data.attributes;
         for (let i = 0; i < attributes.length; i++) {
-            $("#box").append(`<div><h2>${attributes[i].trait_type}</h2><h3>${attributes[i].value}</h3></div>`);
+            $("#box").append(`<div><h2>${attributes[i].trait_type}:</h2><h3>${attributes[i].value}</h3></div>`);
         }
     });
 };
