@@ -64,7 +64,7 @@ ul {
     float: left;
     width: 799px;
     height: 60px;
-    background-color: maroon;
+    background-color: orange;
     backface-visibility: hidden;
     line-height: 60px;
     text-align: center;
@@ -89,7 +89,7 @@ ul {
 }
 
 #two-tier li a:hover{
-    background-color: orange;  
+    background-color: maroon;  
 } 
 
 ul li a {
@@ -111,7 +111,7 @@ ul li a {
     margin-top: 60px;
     margin-right: 60px;
     text-align: center;
-    background-color: maroon;
+    background-color: orange;
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -130,7 +130,7 @@ ul li a {
 
 footer {
     color: black;
-    background-color: maroon;
+    background-color: orange;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
