@@ -5,9 +5,9 @@ html {
 
 main {
     width: 1600px;
-    background-color: maroon;
+    background-color: white;
     margin: auto;
-    border: solid black;
+    border: 2px solid black;;
 }
 
 header {
@@ -44,7 +44,7 @@ header img {
     float: left;
     z-index: 2;
     margin: 100px;
-    border: 2px solid lightblue;
+    border: 2px solid white;
     border-radius: 5px;
 }
 
@@ -65,7 +65,7 @@ ul {
     float: left;
     width: 799px;
     height: 60px;
-    background-color: lightblue;
+    background-color: maroon;
     backface-visibility: hidden;
     line-height: 60px;
     text-align: center;
@@ -89,12 +89,8 @@ ul {
     color: black;
 }
 
-#current {
-    background-color: orange;;
-}
-
 #two-tier li a:hover{
-    background-color: maroon;  
+    background-color: orange;  
 } 
 
 ul li a {
@@ -124,7 +120,7 @@ ul li a {
 #left ul li {
     display: block;
     width: 340px;
-    background-color: orange;
+    background-color: white;
     line-height: 24px;
     text-align: center;
     font-size: 20px;
@@ -139,7 +135,7 @@ ul li a {
     display: block;
     width: 255px;
     color: black;
-    background-color: orange;
+    background-color: white;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -151,13 +147,13 @@ ul li a {
 }
 
 #left ul li a:first-child:hover {
-    background-color: orange; 
+    background-color: white; 
 }
 
 #left ul li a {
     width: 255px;
     color: black;
-    background-color: lightblue;
+    background-color: maroon;
     text-align: center;
     font-size: 20px;
     font-weight: normal;
@@ -170,7 +166,7 @@ ul li a {
 }
 
 #left ul li a:hover {
-    background-color: maroon; 
+    background-color: orange; 
 }
 
 #right {
@@ -189,7 +185,7 @@ ul li a {
 
 footer {
     color: black;
-    background-color: lightblue;
+    background-color: maroon;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
