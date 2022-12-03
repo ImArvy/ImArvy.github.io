@@ -183,6 +183,10 @@ ul li a {
     border-radius: 5px;
 }
 
+#right img:hover{
+    opacity: 0.5;
+}
+
 footer {
     color: black;
     background-color: orange;
