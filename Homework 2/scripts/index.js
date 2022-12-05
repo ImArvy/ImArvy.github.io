@@ -5,7 +5,7 @@ $(document).ready(function() {
     clearOrder();
 });
 
-let hoverImages = () => {
+let hoverImages = function() {
     let images = $("ul li a img");
 
     $(images).each(function() {
@@ -31,7 +31,7 @@ let hoverImages = () => {
     });
 };
 
-let clickImages = () => {
+let clickImages = function() {
     // Get images and initialize total
     let images = $("ul li a img");
 
@@ -52,7 +52,7 @@ let clickImages = () => {
     });
 };
 
-let placeOrder = () => {
+let placeOrder = function() {
     // Get place order button
     let button = $("#place_order");
 
@@ -63,7 +63,7 @@ let placeOrder = () => {
     });
 };
 
-let clearOrder = () => {
+let clearOrder = function() {
     // Get clear order button
     let button = $("#clear_order");
 
